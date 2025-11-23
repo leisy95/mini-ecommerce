@@ -15,8 +15,6 @@ El carrito funciona con CartContext, que guarda los productos, permite cambiar c
 
 Para agregar o pagar productos se usan modales simples basados en un ModalBase.
 
-En general, el proyecto está hecho para ser claro, fácil de entender y sin complicarse demasiado.
-
 ---
 
 ## Tecnologias Usadas
