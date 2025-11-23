@@ -18,4 +18,6 @@ Asegúrate de tener instalado:
 Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
+https://github.com/leisy95/mini-ecommerce.git
+
+
