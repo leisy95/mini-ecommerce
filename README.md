@@ -50,3 +50,5 @@ Instalar las dependencias:
 
 Correr el proyecto (ejecutar):
 - npm run dev
+
+## Autor Leisy Yasmin Ladino
