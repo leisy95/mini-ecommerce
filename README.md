@@ -20,4 +20,21 @@ Clona el repositorio:
 ```bash
 https://github.com/leisy95/mini-ecommerce.git
 
+Acceder a la carpeta
+
+```bash
+cd mini-ecommerce
+
+Instalar las dependencias
+
+```bash
+npm install
+
+Correr el proyecto (ejecutar)
+
+```bash
+npm run dev
+
+
+
 
