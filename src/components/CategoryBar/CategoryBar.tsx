@@ -14,6 +14,7 @@ export default function CategoryBar({ selected, onChange }: Props) {
     ];
 
     return (
+        // Aqui mostramos el listado de categorias con iconos
         <div className={styles.container}>
             {categories.map((cat) => (
                 <button

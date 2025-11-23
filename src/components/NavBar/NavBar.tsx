@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import { useCart } from "../../context/CartContext";
 import { useSearch } from "../../context/SearchContext";
+import { useTheme } from "../../context/ThemeContext";
 import styles from "./Navbar.module.css";
 
 export function NavBar() {
   const { cart } = useCart();
   const { search, setSearch, category, setCategory } = useSearch();
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <nav className={styles.navbar}>
@@ -15,6 +17,7 @@ export function NavBar() {
         </Link>
       </div>
 
+      {/* Filtro buscador */}
       <div className={styles.searchContainer}>
         <input
           type="text"
@@ -29,17 +32,29 @@ export function NavBar() {
           value={category}
           onChange={(e) => setCategory(e.target.value)}
         >
-          <option value="todas">Todas las categorías</option>
+          <option value="todas">Todas</option>
           <option value="laptops">Laptops</option>
           <option value="audios">Audio</option>
           <option value="monitores">Monitores</option>
         </select>
       </div>
 
-      <Link to="/cart" className={styles.cart}>
-        <i className="fa-solid fa-cart-shopping"></i>
-        <span>{cart.length}</span>
-      </Link>
+      {/* icono tema y carrito */}
+      <div className={styles.right}>
+
+        <button className={styles.themeBtn} onClick={toggleTheme}>
+          {theme === "light" ? (
+            <i className="fa-solid fa-moon"></i>
+          ) : (
+            <i className="fa-solid fa-sun"></i>
+          )}
+        </button>
+
+        <Link to="/cart" className={styles.cart}>
+          <i className="fa-solid fa-cart-shopping"></i>
+          <span>{cart.length}</span>
+        </Link>
+      </div>
     </nav>
   );
 }

@@ -1,0 +1,13 @@
+.light-theme {
+    --primary: #ffffff;
+    --primary-dark: #eaeaea;
+    --secondary: #d4af37;
+    --dark: #000000;
+    --light: #000000;
+    --gray: #e0e0e0;
+}
+
+.light-theme body {
+    background: #ffffff;
+    color: #000000;
+}

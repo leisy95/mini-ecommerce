@@ -2,10 +2,11 @@ import { useState } from "react";
 import ProductGrid from "../../components/ProductGrid/ProductGrid";
 import { useProducts } from "../../hooks/useProducts";
 import type { Product } from "../../types/Product";
-import { useCart } from "../../context/CartContext";
 import { QuantityModal } from "../../components/modals/QuantityModal";
 
 import CategoryBar from "../../components/CategoryBar/CategoryBar";
+
+import { useCart } from "../../context/CartContext";
 import { useSearch } from "../../context/SearchContext";
 
 export default function ProductListPage() {

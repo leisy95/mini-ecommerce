@@ -9,13 +9,16 @@ import './index.css'
 import App from './App.tsx'
 import { SearchProvider } from './context/SearchContext.tsx';
 import { CartProvider } from './context/CartContext.tsx';
+import { ThemeProvider } from './context/ThemeContext.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <SearchProvider>
-      <CartProvider>
-        <App />
-      </CartProvider>
-    </SearchProvider>
+    <ThemeProvider>
+      <SearchProvider>
+        <CartProvider>
+          <App />
+        </CartProvider>
+      </SearchProvider>
+    </ThemeProvider>
   </StrictMode>,
 )

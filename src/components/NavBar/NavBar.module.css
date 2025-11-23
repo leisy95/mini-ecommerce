@@ -97,3 +97,21 @@
     padding: 2px 6px;
     border-radius: 50%;
 }
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.themeBtn {
+    background: transparent;
+    border: none;
+    color: var(--light);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.themeBtn:hover {
+    color: var(--secondary);
+}
