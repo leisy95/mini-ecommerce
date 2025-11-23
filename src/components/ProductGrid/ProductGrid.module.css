@@ -1,0 +1,68 @@
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+/* === TARJETA === */
+.card {
+    background: var(--primary);
+    border-radius: var(--radius);
+    padding: 25px;
+    text-align: center;
+
+    border: 2px solid var(--secondary);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.6);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.9);
+}
+
+/* === TITULO === */
+.title {
+    color: var(--light);
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* === PRECIO === */
+.price {
+    color: var(--secondary);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* === BOTÓN === */
+.button {
+    width: 100%;
+    padding: 12px;
+
+    background: var(--secondary);
+    color: var(--dark);
+
+    border: none;
+    border-radius: 30px;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.button:hover {
+    background: #b9962f;
+    /* Dorado oscuro */
+    box-shadow: 0 0 12px rgba(212, 175, 55, 0.9);
+}

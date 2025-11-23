@@ -1,0 +1,68 @@
+.col {
+    flex: 1 1 300px;
+    padding: 10px;
+}
+
+.card {
+    background: var(--light);
+    border: 1px solid #e5e7eb;
+    border-radius: var(--radius);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.body {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 1.2rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.1rem;
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+}
+
+/* Botón */
+.button {
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+    border: none;
+    border-radius: var(--radius);
+
+    background: var(--primary);
+    color: white;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background: var(--primary-dark);
+    transform: scale(1.02);
+}

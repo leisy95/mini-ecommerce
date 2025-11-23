@@ -1,0 +1,52 @@
+.backdrop {
+    background: rgba(0, 0, 0, 0.75) !important;
+    backdrop-filter: blur(3px);
+}
+
+.modalContent {
+    background: var(--primary) !important;
+    border-radius: var(--radius);
+    border: 2px solid var(--secondary);
+    color: var(--light);
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.4);
+    animation: fadeIn 0.25s ease-out;
+}
+
+.modalHeader {
+    background: var(--primary-dark);
+    border-bottom: 1px solid var(--secondary);
+    color: var(--secondary);
+    padding: 15px 20px;
+}
+
+.modalTitle {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.closeBtn {
+    filter: invert(100%);
+}
+
+.modalBody {
+    padding: 20px;
+    color: var(--light);
+}
+
+.modalFooter {
+    border-top: 1px solid var(--secondary);
+    background: var(--primary-dark);
+    padding: 15px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

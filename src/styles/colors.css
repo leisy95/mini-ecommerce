@@ -1,0 +1,22 @@
+:root {
+    --primary: #0f0f10;
+    --primary-dark: #0a0a0b;
+    --secondary: #d4af37;
+    --dark: #000000;
+    --light: #ffffff;
+    --gray: #2a2a2c;
+    --radius: 12px;
+}
+
+body {
+    background:
+        repeating-linear-gradient(
+            45deg,
+            rgba(255, 255, 255, 0.02) 0px,
+            rgba(255, 255, 255, 0.02) 2px,
+            transparent 2px,
+            transparent 6px
+        ),
+        linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: var(--light);
+}

@@ -1,0 +1,153 @@
+.cartContainer {
+    background: var(--primary-dark);
+    padding: 25px;
+    border-radius: var(--radius);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.15);
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.title {
+    color: var(--secondary);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.empty {
+    color: var(--light);
+    text-align: center;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.item {
+    background: var(--primary);
+    padding: 18px;
+    border-radius: var(--radius);
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    transition: 0.2s ease;
+}
+
+.item:hover {
+    box-shadow: 0 0 18px rgba(212, 175, 55, 0.25);
+    transform: translateY(-3px);
+}
+
+.info {
+    color: var(--light);
+    width: 35%;
+}
+
+.name {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.price {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.qtyButton {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid var(--secondary);
+    background: transparent;
+    color: var(--secondary);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.qtyButton:hover {
+    background: var(--secondary);
+    color: var(--dark);
+}
+
+.qtyNumber {
+    color: var(--light);
+    font-size: 1.1rem;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+}
+
+.subtotal {
+    text-align: right;
+    color: var(--light);
+    width: 20%;
+}
+
+.subtotal strong {
+    color: var(--secondary);
+    font-size: 1.2rem;
+}
+
+.remove {
+    background: transparent;
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    color: #ff4444;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.remove:hover {
+    background: #ff4444;
+    color: #000;
+}
+
+.summary {
+    background: var(--primary);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    padding: 20px;
+    border-radius: var(--radius);
+    margin-top: 25px;
+    text-align: right;
+}
+
+.summary h4 {
+    color: var(--light);
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.summary h4 span {
+    color: var(--secondary);
+}
+
+.checkoutBtn {
+    background: var(--secondary);
+    color: var(--dark);
+    padding: 12px 25px;
+    border: none;
+    border-radius: var(--radius);
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.checkoutBtn:hover {
+    background: #b9962e;
+    box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
+}

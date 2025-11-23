@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "nombre": "Laptop Pro 14”",
+    "precio": 1299,
+    "categoria": "laptops"
+  },
+  {
+    "id": 2,
+    "nombre": "Laptop Air 13”",
+    "precio": 999,
+    "categoria": "laptops"
+  },
+  {
+    "id": 3,
+    "nombre": "Laptop Gamer X17",
+    "precio": 1899,
+    "categoria": "laptops"
+  },
+  {
+    "id": 4,
+    "nombre": "Laptop Studio 16”",
+    "precio": 1599,
+    "categoria": "laptops"
+  },
+  {
+    "id": 5,
+    "nombre": "Laptop Compact 12”",
+    "precio": 749,
+    "categoria": "laptops"
+  },
+  {
+    "id": 6,
+    "nombre": "Laptop Ultra 15”",
+    "precio": 1399,
+    "categoria": "laptops"
+  },
+  {
+    "id": 7,
+    "nombre": "Laptop Business 14”",
+    "precio": 1199,
+    "categoria": "laptops"
+  },
+  {
+    "id": 8,
+    "nombre": "Laptop Flex 2-en-1",
+    "precio": 1099,
+    "categoria": "laptops"
+  },
+  {
+    "id": 9,
+    "nombre": "Laptop Entry 13”",
+    "precio": 599,
+    "categoria": "laptops"
+  },
+  {
+    "id": 10,
+    "nombre": "Laptop Creator 17”",
+    "precio": 2099,
+    "categoria": "laptops"
+  },
+  {
+    "id": 11,
+    "nombre": "Audífonos In-Ear Pro",
+    "precio": 129,
+    "categoria": "audios"
+  },
+  {
+    "id": 12,
+    "nombre": "Audífonos Over-Ear XL",
+    "precio": 199,
+    "categoria": "audios"
+  },
+  {
+    "id": 13,
+    "nombre": "SoundBar 2.1 Compact",
+    "precio": 249,
+    "categoria": "audios"
+  },
+  {
+    "id": 14,
+    "nombre": "Bocina Portátil Mini",
+    "precio": 89,
+    "categoria": "audios"
+  },
+  {
+    "id": 15,
+    "nombre": "Bocina Smart Home",
+    "precio": 149,
+    "categoria": "audios"
+  },
+  {
+    "id": 16,
+    "nombre": "Audífonos Gaming RGB",
+    "precio": 159,
+    "categoria": "audios"
+  },
+  {
+    "id": 17,
+    "nombre": "Micrófono Studio USB",
+    "precio": 179,
+    "categoria": "audios"
+  },
+  {
+    "id": 18,
+    "nombre": "Barra de Sonido 5.1",
+    "precio": 399,
+    "categoria": "audios"
+  },
+  {
+    "id": 19,
+    "nombre": "Audífonos Bluetooth Lite",
+    "precio": 59,
+    "categoria": "audios"
+  },
+  {
+    "id": 20,
+    "nombre": "Bocina Outdoor Max",
+    "precio": 219,
+    "categoria": "audios"
+  },
+  {
+    "id": 21,
+    "nombre": "Monitor UltraWide 14”",
+    "precio": 699,
+    "categoria": "monitores"
+  },
+  {
+    "id": 22,
+    "nombre": "Monitor 24” FHD",
+    "precio": 179,
+    "categoria": "monitores"
+  },
+  {
+    "id": 23,
+    "nombre": "Monitor 27” QHD",
+    "precio": 299,
+    "categoria": "monitores"
+  },
+  {
+    "id": 24,
+    "nombre": "Monitor 32” 4K",
+    "precio": 449,
+    "categoria": "monitores"
+  },
+  {
+    "id": 25,
+    "nombre": "Monitor Gaming 27” 165Hz",
+    "precio": 379,
+    "categoria": "monitores"
+  },
+  {
+    "id": 26,
+    "nombre": "Monitor Curvo 34”",
+    "precio": 599,
+    "categoria": "monitores"
+  },
+  {
+    "id": 27,
+    "nombre": "Monitor Oficina 22”",
+    "precio": 139,
+    "categoria": "monitores"
+  },
+  {
+    "id": 28,
+    "nombre": "Monitor Pro Color 27”",
+    "precio": 499,
+    "categoria": "monitores"
+  },
+  {
+    "id": 29,
+    "nombre": "Monitor 29” UltraWide",
+    "precio": 329,
+    "categoria": "monitores"
+  },
+  {
+    "id": 30,
+    "nombre": "Monitor Touch 24”",
+    "precio": 289,
+    "categoria": "monitores"
+  }
+]
