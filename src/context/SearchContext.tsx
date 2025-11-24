@@ -11,7 +11,7 @@ const SearchContext = createContext<SearchContextType | null>(null);
 
 export function SearchProvider({ children }: { children: React.ReactNode }) {
     const [search, setSearch] = useState("");
-    const [category, setCategory] = useState("todas"); // ← CORREGIDO
+    const [category, setCategory] = useState("todas"); 
 
     return (
         <SearchContext.Provider value={{ search, setSearch, category, setCategory }}>

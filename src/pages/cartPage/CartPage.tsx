@@ -45,7 +45,7 @@ export function CartPage() {
                             <p className={styles.price}>${item.precio}</p>
                         </div>
 
-                        {/* CANTIDAD */}
+                        {/* Cantidad */}
                         <div className={styles.quantity}>
                             <button
                                 className={styles.qtyButton}
@@ -69,18 +69,16 @@ export function CartPage() {
                             </button>
                         </div>
 
-                        {/* SUBTOTAL */}
                         <div className={styles.subtotal}>
                             <p>Subtotal:</p>
                             <strong>${subtotal.toFixed(2)}</strong>
                         </div>
 
-                        {/* ELIMINAR */}
                         <button
                             className={styles.remove}
                             onClick={() => removeFromCart(item.id)}
                         >
-                            ✕
+                            X
                         </button>
                     </div>
                 );
@@ -101,7 +99,7 @@ export function CartPage() {
                 </div>
             )}
 
-            {/* MODAL CONFIRMAR */}
+            {/* Modal Confirmar */}
             {showConfirmPay && (
                 <ConfirmPayModal
                     total={totalGeneral}
@@ -110,7 +108,7 @@ export function CartPage() {
                 />
             )}
 
-            {/* MODAL GRACIAS */}
+            {/* Modal Agradecimineto */}
             {showThanks && (
                 <ThanksModal
                     onClose={() => setShowThanks(false)}
