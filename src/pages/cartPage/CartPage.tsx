@@ -13,12 +13,22 @@ export function CartPage() {
     const [showConfirmPay, setShowConfirmPay] = useState(false);
     const [showThanks, setShowThanks] = useState(false);
 
+
     const navigate = useNavigate();
 
     const totalGeneral = cart.reduce(
         (acc, item) => acc + item.precio * item.quantity,
         0
     );
+
+    // Funcion restar cantidades
+    const restarCantidades = () => {
+        cart.forEach(item => {
+            if (item.quantity > 1) {
+                updateQuantity(item.id, item.quantity - 1);
+            }
+        });
+    };
 
     const handlePay = () => {
         clearCart();
@@ -95,6 +105,13 @@ export function CartPage() {
                         onClick={() => setShowConfirmPay(true)}
                     >
                         Realizar Pago
+                    </button>
+
+                    <button
+                        className={styles.checkoutBtn}
+                        onClick={restarCantidades}
+                    >
+                        Restar cantidad
                     </button>
                 </div>
             )}

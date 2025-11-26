@@ -23,6 +23,7 @@ export default function ProductCard({ product, onAddToCart }: Props) {
                     >
                         Agregar al carrito
                     </button>
+                    
                 </div>
             </div>
         </div>
